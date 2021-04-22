@@ -20,4 +20,4 @@
 <%# <%# current_user.follows?(user) %> 
 
 <button class="follow-toggle" data-initial-follow-state="<%= current_user.follows?(user) %>" 
-  data-user-id="<%= current_user%>"></button>
+  data-user-id="<%= user.id %>"></button>
